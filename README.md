@@ -13,8 +13,12 @@ make
 ```
 
 If you want to change the partition size,  
-open Thanos.cu and change the  
-'#define PARTITION 16'  
+open Thanos.cu and change the
+
+```
+#define PARTITION 16
+```
+
 to whatever partition size you want to change.
 
 When you run the tool, it will print out the two results on the terminal.  
@@ -25,6 +29,10 @@ The second one is the result of running cross-decomposition.
 
 Thanos takes tsv files as an input.  
 It assumes the vertex numbering starts from 1 not 0.  
-The tsv file should be formatted as follows.  
-destination source weight  
+The tsv file should be formatted as follows.
+
+```
+destination source weight
+```
+
 The file must be sorted with source first and the destinations for the source must be sorted too.
