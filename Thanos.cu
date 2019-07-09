@@ -157,7 +157,7 @@ class Thanos{
         uint64_t* edges_per_part; //this var is for evaluating the partition quality
 
         cudaError_t err;
-        
+
         void readGraph_tsv(const char *filename);
         void readGraph_DARPA_CSR(   const char *filename,
                                     std::vector<uint32_t> &edge_vec_src,
@@ -317,7 +317,8 @@ void Thanos::readGraph_tsv(const char *filename){
     The TSV file must be in format of
     destination src weight
     The file has to be sorted with src first and
-    destination also has to be sorted. 
+    destination also has to be sorted.  
+    The vertex numbering must be starting from 1 not 0.
 */
 void Thanos::readGraph_DARPA_CSR(const char *filename,
                          std::vector<uint32_t> &edge_vec_src,
