@@ -1,0 +1,34 @@
+Copyright (c) <2019> 
+<University of Illinois at Urbana-Champaign>
+All rights reserved.
+
+Developed by:   
+
+<ES CAD Group>
+<University of Illinois at Urbana-Champaign>
+<http://dchen.ece.illinois.edu/>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this tool
+to deal with the tool without restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the tool, and to permit
+persons to whom the tool is furnished to do so, subject to the following conditions:
+
+    * Redistributions of source code must retain the above copyright notice, this list of
+    conditions and the following disclaimers.
+    * Redistributions in binary form must reproduce the above copyright notice, this list
+    of conditions and the following disclaimers in 
+    the documentation and/or other materials provided with the distribution.
+    * Neither the names of the Development Groups and the names of the Institutions, nor
+    the names of its contributors may be used to endorse or promote products derived from
+    this tool without specific prior written permission. 
+
+THE TOOL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE TOOL OR THE USE OR
+OTHER DEALINGS WITH THE TOOL. 
+
+When referencing this particular tool in a publication, please use the following citation:
+[1] Dae Hee Kim, Rakesh Nagi, and Deming Chen, "Thanos: High-Performance CPU-GPU Based Graph Partitioning Using Cross-Decomposition"
+University of Illinois at Urbana-Champaign, Sep. 2019: https://github.com/dannyk0104/Thanos
