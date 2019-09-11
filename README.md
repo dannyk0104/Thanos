@@ -1,14 +1,14 @@
 # Thanos
 
-As size of graphs is getting complex and larger, processing such graphsbecome practically impossible to on CPUs.  
-Rencently, GPUs are proven tobe fit for such purpose.  
-However, utilizing a GPU to process a large graph isstill considered to be inefficient and slow.  
-Processing them with subgraphs bypartitioning has become important for many applications in areas of comput-ing.  
-When a graph is partitioned into multiple sub-graphs, those sub-graphsshould be in equal sizes that fit into each GPU with maximum size to maxi-mize GPU utilization.  
-Also, it is crucial to reduce number of memory accessoutside of each sub-graph to avoid global memory access.  
-Not only load bal-ancing and quality of partition is important but also partitioning time is veryimportant.  
-To achieve all those goals, we introduce Cross-Decomposition al-gorithm that iteratively partitions a graph.  
-The algorithm suits very wellfor parallal GPU programming which leads to fast and high quality graphpartitioning.
+As size of graphs is getting complex and larger, processing such graphs become practically impossible to on CPUs.  
+Rencently, GPUs are proven to be fit for such purpose.  
+However, utilizing a GPU to process a large graph is still considered to be inefficient and slow.  
+Processing them with subgraphs by partitioning has become important for many applications in areas of computing.  
+When a graph is partitioned into multiple sub-graphs, those sub-graphs should be in equal sizes that fit into each GPU with maximum size to maximize GPU utilization.  
+Also, it is crucial to reduce number of memory access outside of each sub-graph to avoid global memory access.  
+Not only load balancing and quality of partition is important but also partitioning time is very important.  
+To achieve all those goals, we introduce Cross-Decomposition algorithm that iteratively partitions a graph.  
+The algorithm suits very well for parallal GPU programming which leads to fast and high quality graph partitioning.
 
 ## Getting Started
 
