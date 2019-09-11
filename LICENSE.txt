@@ -30,5 +30,4 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE TOOL OR THE USE OR
 OTHER DEALINGS WITH THE TOOL. 
 
 When referencing this particular tool in a publication, please use the following citation:
-[1] Dae Hee Kim, Rakesh Nagi, and Deming Chen, "Thanos: High-Performance CPU-GPU Based Graph Partitioning Using Cross-Decomposition"
-University of Illinois at Urbana-Champaign, Sep. 2019: https://github.com/dannyk0104/Thanos
+[1] Dae Hee Kim, Rakesh Nagi, and Deming Chen, “Thanos: High-Performance CPU-GPU Based Graph Partitioning Using Cross-Decomposition,” IEEE/ACM Asia and South Pacific Design Automation Conference, January 2020.
