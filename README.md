@@ -1,6 +1,6 @@
 # Thanos
 
-As size of graphs is getting complex and larger, processing such graphs become practically impossible to on CPUs.  
+As size of graphs is getting complex and larger, processing such graphs become practically impossible to work on CPUs.  
 Rencently, GPUs are proven to be fit for such purpose.  
 However, utilizing a GPU to process a large graph is still considered to be inefficient and slow.  
 Processing them with subgraphs by partitioning has become important for many applications in areas of computing.  
