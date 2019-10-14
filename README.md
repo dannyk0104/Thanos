@@ -1,14 +1,6 @@
 # Thanos
 
-As size of graphs is getting complex and larger, processing such graphs become practically impossible to work on CPUs.  
-Rencently, GPUs are proven to be fit for such purpose.  
-However, utilizing a GPU to process a large graph is still considered to be inefficient and slow.  
-Processing them with subgraphs by partitioning has become important for many applications in areas of computing.  
-When a graph is partitioned into multiple sub-graphs, those sub-graphs should be in equal sizes that fit into each GPU with maximum size to maximize GPU utilization.  
-Also, it is crucial to reduce number of memory access outside of each sub-graph to avoid global memory access.  
-Not only load balancing and quality of partition is important but also partitioning time is very important.  
-To achieve all those goals, we introduce Cross-Decomposition algorithm that iteratively partitions a graph.  
-The algorithm suits very well for parallal GPU programming which leads to fast and high quality graph partitioning.
+As graphs become larger and more complex, it is becoming nearly impossible to process them without graph partitioning. Graph partitioning creates many subgraphs which can be processed in parallel thus delivering high-speed computation results. However, graph partitioning is a difficult task. In this open-source package, we introduce Thanos, a fast graph partitioning tool which uses the cross-decomposition algorithm that iteratively partitions a graph. It also produces balanced loads of partitions. The algorithm is well suited for parallel GPU programming which leads to fast and high-quality graph partitioning solutions. Experimental results show that we have achieved a 30x speedup and 35% better edge cut reduction compared to the CPU version of METIS on average.
 
 ## Getting Started
 
